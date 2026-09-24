@@ -1,0 +1,29 @@
+# Dependencies
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+
+# Build outputs
+frontend/dist/
+frontend/.tmp/
+*.tsbuildinfo
+
+# Database & local data
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity system logs
+.system_generated/
