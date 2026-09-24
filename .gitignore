@@ -1,13 +1,13 @@
 # Dependencies
-frontend/node_modules/
+node_modules/
 backend/venv/
 backend/__pycache__/
 backend/*/__pycache__/
 backend/*/*/__pycache__/
 
 # Build outputs
-frontend/dist/
-frontend/.tmp/
+dist/
+.tmp/
 *.tsbuildinfo
 
 # Database & local data

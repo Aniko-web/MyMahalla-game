@@ -23,7 +23,7 @@ echo "✅ Backend ishga tushdi (PID: $BACKEND_PID) -> http://127.0.0.1:8000"
 
 # 2. Frontendni ishga tushirish (Vite + React)
 echo "⚡ React Frontend ishga tushmoqda (Port 5173)..."
-cd "$PROJECT_ROOT/frontend"
+cd "$PROJECT_ROOT"
 npm run dev -- --host 127.0.0.1 --port 5173 &
 FRONTEND_PID=$!
 echo "✅ Frontend ishga tushdi (PID: $FRONTEND_PID) -> http://127.0.0.1:5173"
